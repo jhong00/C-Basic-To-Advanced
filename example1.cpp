@@ -1,5 +1,5 @@
 // when trying to call a function in class, ALWAYS have to create an object first... 
-// good practice to use setters and getters in public 
+// SETTERS and GETTERS 
 #include <iostream>
 #include <string>
 using namespace std;
