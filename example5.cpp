@@ -1,6 +1,6 @@
 #include <iostream>
-#include <cstdlib> // c standard library (rand)
-#include <ctime> // access clock and time
+#include <cstdlib> // c, standard library (rand)
+#include <ctime> // c, access clock and time
 
 // building a random number generator
 
@@ -14,7 +14,7 @@ int main()
 
     for (i = 0; i < 25; i++)
     {
-        cout << 1 + (rand()%6) << endl; // remainder can only be 1-5
+        cout << 1 + (rand() % 6) << endl; // remainder can only be 1-5
 
     }
 }
