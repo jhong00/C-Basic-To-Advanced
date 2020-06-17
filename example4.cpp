@@ -1,6 +1,7 @@
 #include <iostream>
-
 using namespace std;
+
+// switch, case, and break
 
 int main()
 {
