@@ -11,10 +11,7 @@
 # so... 
 
 #example.o: example.h example.cpp // what relies on 
-	#g++ -c example.cpp // what we're compiling
-
-#example2.o: example2.h example2.cpp // what relies on 
-	#g++ -std=c++17 example2.cpp // what we're compiling 
+	#g++ -c example.cpp -o example.o // what we're compiling
 
 
 	
