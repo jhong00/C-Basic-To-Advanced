@@ -2,6 +2,8 @@
 
 using namespace std;
 
+// purpose is to demonstrate using classes in the same file in main classes as well as accessing variables of different classes by other functions 
+
 class StankFist
 {
     public:
@@ -20,6 +22,6 @@ void stinkysFriend(StankFist &sfo)
 
 int main()
 {
-    StankFist obj; // stinkyVar = 0 but no output since no cout
+    StankFist obj; // stinkyVar = 0 but no output since no cout, StankFist object needs to be created to allow us to access stinkyVar 
     stinkysFriend(obj); // changes stinkyVar = 99 and output prints since there is cout 
 }
