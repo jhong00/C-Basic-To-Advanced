@@ -3,6 +3,9 @@
 
 using namespace std;
 
+
+// purpose : composition, using classes in other classes
+
 int main()
 {
     Jason obj1(3,4);
