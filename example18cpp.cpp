@@ -4,7 +4,7 @@
 using namespace std;
 
 Jason::Jason(int a, int b)
-: normalVar(a), constVar(b) // syntax for list for setting int a = normalVar(a) and int b = constVar(b) 
+: normalVar(a), constVar(b) // because we have a constant variable, we need to do member initializers to set int a = normalVar(a) and int b = constVar(b) 
 {
 }
 
