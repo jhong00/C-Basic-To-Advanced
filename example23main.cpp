@@ -10,4 +10,8 @@ int main()
 
     Daughter derivedClass;
     derivedClass.sayName();
+
+    Daughter protectedClass;
+    protectedClass.doSomething();
+    
 }

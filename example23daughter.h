@@ -8,6 +8,7 @@ class Daughter : public Mother
 {
     public:
         Daughter();
+        void doSomething();
     protected:
     private:
 };
