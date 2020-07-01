@@ -40,5 +40,5 @@ int main()
     Enemy *enemy2 = &m; // when we create an enemy2 object which is a pointer, we can assign the memory address of m to it and since the enemy class has a virtual function w/ an abstract class attack(), it will direct to the monster class to check if it has an attack() function, and since it is an abstract class we require Monster to have an attack() function, this will cause overwriting to happen 
     enemy1->attack(); // remember -> for pointers, same as . to access functions 
     enemy2->attack(); // remember -> used for pointers, same as . to access functions
-    // enemy2->run is not a function enemy2 can access because there is no abstract class or a function that is polymorphic because we did not declare it in the Enemy class, the pointer class 
+    // enemy2->run is not a function enemy2 can access because there is no abstract class or a function that is polymorphic because we did not declare it in the Enemy class, the class with a pointer object 
 }
