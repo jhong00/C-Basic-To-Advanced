@@ -14,7 +14,5 @@
 	#g++ -c example.cpp -o example.o // what we're compiling
 
 
-	
-
 clean: 
-	-rm a.out my.output
+	-rm a.out my.output test.cpp

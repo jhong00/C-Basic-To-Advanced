@@ -26,3 +26,4 @@ int main()
     Spunky<double> obj2(3.154); 
     Spunky<char> obj3('q'); // " " apparently used for strings and ' ' are used for individual characters 
 }
+
